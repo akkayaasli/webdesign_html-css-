@@ -33,7 +33,7 @@ span {
 #container {
   width: 80%;
   margin: auto;
-  height: auto; /*gelecek yüksekliğe göre kendini ayarlayabilsin*/
+  height: auto;
 }
 header {
   width: 100%;
