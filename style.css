@@ -185,3 +185,38 @@ h1 {
   text-indent: 48px;
   color: #494949;
 }
+.references {
+  width: 31%;
+  height: 300px;
+  background-color: white;
+  float: left;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px 2px rgba(20, 23, 28, 0.15);
+}
+.referencesImage {
+  width: 100%;
+  height: 180px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  opacity: 0.6;
+  transition: opacity 0.8s;
+}
+.referencesImage:hover {
+  opacity: 1;
+}
+.reftitle1 {
+  font-size: 20px;
+  display: inline-block;
+  margin-top: 0;
+  color: black;
+  text-align: center;
+  height: 45px;
+  line-height: 45px;
+  background-color: #f1f1f1;
+  width: 100%;
+  margin-top: -5px;
+}
+.refDetail {
+  text-align: center;
+}
