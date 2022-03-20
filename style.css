@@ -156,3 +156,32 @@ footer {
   text-align: center;
   box-shadow: 0 2px 8px 2px rgba(20, 23, 28, 0.15);
 }
+h1 {
+  text-align: center;
+  background-color: black;
+  color: wheat;
+  height: 50px;
+  line-height: 50px;
+  margin: 0 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px 2px rgba(20, 23, 28, 0.15);
+}
+#aboutImage {
+  width: 350px;
+  height: 300px;
+  float: left;
+  border-radius: 10px;
+  margin: 25px;
+  margin-bottom: 10px;
+  transition: opacity 0.8s;
+}
+#aboutImage:hover {
+  opacity: 0.6;
+}
+.aboutText1 {
+  margin-left: 15px;
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-indent: 48px;
+  color: #494949;
+}
